@@ -64,7 +64,7 @@ const UI = {
             "Настройки модов SaintArchI: одно окно на все шесть. Откройте его по F7, кнопкой «Моды SaintArchI» в меню паузы или из колеса Keeper's Lantern. Моды Travalgard: J или Esc → Keeper's Lantern.",
             "Не нашли ответа или в игре всё иначе? Спросите на странице мода на Nexus."],
            zh: ["本站解答两位作者的《守墓人2》模组问题：SaintArchI（GK2 Codex、Shopping List、Move Buildings、Thoughtful Week、Faster Doors、Zombie++）和 Travalgard（Keeper's Lantern 合集）。解答基于当前已发布的版本。",
-            "SaintArchI 模组的设置：六个模组共用一个窗口，按 F7、在暂停菜单里点“SaintArchI mods”，或从 Keeper's Lantern 轮盘打开。Travalgard 的模组：J 或 Esc → Keeper's Lantern。",
+            "SaintArchI 模组的设置：六个模组共用一个窗口，按 F7、在暂停菜单里点“SaintArchI 模组”，或从 Keeper's Lantern 轮盘打开。Travalgard 的模组：J 或 Esc → Keeper's Lantern。",
             "没找到答案，或游戏里的情况不同？请到该模组的 Nexus 页面提问。"] }
 };
 
