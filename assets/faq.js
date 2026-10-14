@@ -8,7 +8,7 @@ const PAGE = document.body.dataset.page, ROOT = document.body.dataset.root || ""
 const MODS = Object.fromEntries(META.mods.map(m => [m.id, m]));
 const BYSLUG = Object.fromEntries(META.mods.map(m => [m.slug, m]));
 const BYID = Object.fromEntries(ENTRIES.map(e => [e.id, e]));
-const PUBLIC_ROOT = META.root || "https://saintarchi.github.io/gk2-mods/";
+const PUBLIC_ROOT = META.root || "https://artemiyxx.github.io/gk2-mods-faq/";
 const THIS_MOD = BYSLUG[PAGE] || null;           // null on index and mods
 const COUNT = {}; ENTRIES.forEach(e => { COUNT[e.mod] = (COUNT[e.mod] || 0) + 1; });
 const topOf = id => ENTRIES.filter(e => e.mod === id && e.top).sort((a, b) => a.top - b.top);
