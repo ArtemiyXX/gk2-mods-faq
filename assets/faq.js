@@ -299,7 +299,7 @@ function settleScroll(id) {
   let qp = ""; try { qp = new URLSearchParams(location.search).get("lang") || ""; } catch (e) {}
   const saved = load("gk2faq.lang"); const nav = (navigator.language || "en").toLowerCase();
   const pick = s => /^ru/.test(s) ? "ru" : /^zh/.test(s) ? "zh" : /^en/.test(s) ? "en" : "";
-  lang = pick(qp.toLowerCase()) || saved || pick(nav) || "en";
+  lang = pick(qp.toLowerCase()) || saved || "en";   // owner: English by default; ?lang= (the mods pass the game language) or the visitor's own choice wins
   if (!UI.title[lang]) lang = "en";
   let h = ""; try { h = decodeURIComponent((location.hash || "").slice(1)); } catch (e) {}
   // an entry on the index (old links), or on another mod's page, goes to its own page before anything is drawn
